@@ -1,0 +1,104 @@
+[24-Dec-2021 06:27:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function resource_path() in /home/care2020sort/public_html/lusha/config/view.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/care2020sort/public_html/lusha/config/view.php on line 17
+[24-Dec-2021 06:27:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/care2020sort/public_html/lusha/config/services.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/care2020sort/public_html/lusha/config/services.php on line 18
+[24-Dec-2021 06:28:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/care2020sort/public_html/lusha/config/database.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/care2020sort/public_html/lusha/config/database.php on line 18
+[24-Dec-2021 06:28:01 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/care2020sort/public_html/lusha/config/filesystems.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/care2020sort/public_html/lusha/config/filesystems.php on line 16
+[24-Dec-2021 06:28:02 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/care2020sort/public_html/lusha/config/hashing.php:32
+Stack trace:
+#0 {main}
+  thrown in /home/care2020sort/public_html/lusha/config/hashing.php on line 32
+[24-Dec-2021 06:28:04 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/care2020sort/public_html/lusha/config/cache.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/care2020sort/public_html/lusha/config/cache.php on line 18
+[24-Dec-2021 06:28:05 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/care2020sort/public_html/lusha/config/logging.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/care2020sort/public_html/lusha/config/logging.php on line 20
+[24-Dec-2021 06:28:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/care2020sort/public_html/lusha/config/queue.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/care2020sort/public_html/lusha/config/queue.php on line 16
+[24-Dec-2021 06:28:08 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/care2020sort/public_html/lusha/config/sanctum.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/care2020sort/public_html/lusha/config/sanctum.php on line 16
+[24-Dec-2021 06:31:05 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/care2020sort/public_html/lusha/config/session.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/care2020sort/public_html/lusha/config/session.php on line 21
+[24-Dec-2021 06:31:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/care2020sort/public_html/lusha/config/mail.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/care2020sort/public_html/lusha/config/mail.php on line 16
+[24-Dec-2021 06:32:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/care2020sort/public_html/lusha/config/broadcasting.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/care2020sort/public_html/lusha/config/broadcasting.php on line 18
+[24-Dec-2021 06:32:35 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/care2020sort/public_html/lusha/config/app.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/care2020sort/public_html/lusha/config/app.php on line 16
+[26-Dec-2021 07:43:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/care2020sort/public_html/lusha/config/app.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/care2020sort/public_html/lusha/config/app.php on line 16
+[26-Dec-2021 07:44:06 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/care2020sort/public_html/lusha/config/broadcasting.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/care2020sort/public_html/lusha/config/broadcasting.php on line 18
+[26-Dec-2021 07:44:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/care2020sort/public_html/lusha/config/cache.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/care2020sort/public_html/lusha/config/cache.php on line 18
+[26-Dec-2021 07:44:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/care2020sort/public_html/lusha/config/database.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/care2020sort/public_html/lusha/config/database.php on line 18
+[26-Dec-2021 07:44:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/care2020sort/public_html/lusha/config/filesystems.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/care2020sort/public_html/lusha/config/filesystems.php on line 16
+[26-Dec-2021 07:44:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/care2020sort/public_html/lusha/config/hashing.php:32
+Stack trace:
+#0 {main}
+  thrown in /home/care2020sort/public_html/lusha/config/hashing.php on line 32
+[26-Dec-2021 07:44:29 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/care2020sort/public_html/lusha/config/logging.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/care2020sort/public_html/lusha/config/logging.php on line 20
+[26-Dec-2021 07:44:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/care2020sort/public_html/lusha/config/mail.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/care2020sort/public_html/lusha/config/mail.php on line 16
+[26-Dec-2021 07:44:42 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/care2020sort/public_html/lusha/config/queue.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/care2020sort/public_html/lusha/config/queue.php on line 16
+[26-Dec-2021 07:44:46 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/care2020sort/public_html/lusha/config/sanctum.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/care2020sort/public_html/lusha/config/sanctum.php on line 16
+[26-Dec-2021 07:44:50 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/care2020sort/public_html/lusha/config/services.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/care2020sort/public_html/lusha/config/services.php on line 18
+[26-Dec-2021 07:44:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/care2020sort/public_html/lusha/config/session.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/care2020sort/public_html/lusha/config/session.php on line 21
+[26-Dec-2021 07:44:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function resource_path() in /home/care2020sort/public_html/lusha/config/view.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/care2020sort/public_html/lusha/config/view.php on line 17

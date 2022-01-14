@@ -1,0 +1,226 @@
+* {box-sizing: border-box;}
+
+body { 
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.payment_loding {
+  display: none;
+  width: 50px;
+  height: 50px;
+  border: 3px solid rgba(204, 79, 79, 0.3);
+  border-radius: 50%;
+  border-top-color: #fff;
+  animation: spin 1s ease-in-out infinite;
+  -webkit-animation: spin 1s ease-in-out infinite;
+}
+
+@keyframes spin {
+  to { -webkit-transform: rotate(360deg); }
+}
+@-webkit-keyframes spin {
+  to { -webkit-transform: rotate(360deg); }
+}
+.header .navbar a {
+  color: #fff;
+}
+.error {
+  color: red;
+}
+.unsuccess-msg {
+  color: red;
+}
+.success-msg{
+  color: green;
+}
+.stripe-error{
+  color: red;
+}
+.bg-clr{
+   background-color: #05416c; 
+}
+.hero__title{
+    font-size: 60px;
+}
+.register-btn {
+    color: #000;
+}
+.logo-block img {
+    max-width: 130px;
+}
+.navbar .navbar-nav .nav-item a {
+    padding: 4px 22px;
+    font-size:15px;
+}
+.navbar .navbar-nav .nav-item .dropdown-menu a {
+    color: #000;
+    font-size: 15px;
+}
+.navbar .navbar-nav .nav-item .dropdown-menu a .sub {
+    font-size: 13px;
+    color: #05416c;
+}
+.banner-email{
+    width: 70%;
+}
+
+.block-space {
+    padding-top: 100px;
+}
+.block-space-bottom{
+     padding-bottom: 100px;
+}
+.item-icon {
+    height: 80px;
+    width: 80px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: rgba(55, 101, 138, 0.18);
+    margin:0 auto;
+}
+.item-icon i {
+    line-height: 80px;
+    font-size: 35px;
+    color: #05416C;
+}
+.started-content{
+    border-radius: 15px;
+}
+.bg-img{
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+.email-send-blk {
+    width: 60%;
+    margin: 0 auto;
+}
+.btn.submit-btn {
+    border: 1px solid #fff;
+    color: #fff;
+    position: absolute;
+    right: 0;
+    background: #05416c;
+}
+.footer-content li{
+    padding-bottom:5px;
+}
+.footer-content a{
+    color:#fff;
+    text-decoration: none;
+    font-size: 15px;
+}
+.social-icon li i {
+    padding: 0 15px;
+    color:#fff;
+}
+.copyright-footer {
+    background: #122958;
+}
+.copyright-footer p {
+    font-size: 13px;
+}
+.navbar-toggler-icon i {
+    color: #fff;
+}
+.navbar-toggler:focus {
+    box-shadow: unset;
+}
+.btn.main-btn {
+    background: #05416c;
+    color: #fff;
+    padding: 10px 30px;
+}
+.shadow {
+    box-shadow: 0 .5rem 2rem rgba(0, 0, 0, 0.2) !important;
+}
+.ccpa-gdpr-section{
+    padding-bottom: 100px;
+    background: #05416c;
+}
+.form-select:focus {
+    box-shadow: unset;
+}
+
+/*media query*/
+ @media only screen and (min-width:768px){
+     .heigth-100{
+         height:100%;
+     }
+ }
+@media only screen and (max-width:767px){
+ .logo-block{
+     text-align:center;
+ }
+ .hero__title {
+    font-size: 32px;
+ }
+.banner-email {
+    width: 100%;
+ }
+ .block-space {
+    padding-top: 40px;
+}
+.email-send-blk{
+    width: 100%;
+}
+.main-title-text {
+    font-size: 22px;
+}
+.sign-up-blk {
+    position: relative;
+    bottom: 6px;
+    float: right;
+ }
+ .block-space-bottom{
+    padding-bottom: 40px;
+ }
+
+ /*tab*/
+
+body {font-family: Arial;}
+
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+ }
+ 
+@media only screen and (min-width:768px) and (max-width:991px){
+    .navbar-toggler {
+    position: relative;
+    left: 10px;
+ }
+}

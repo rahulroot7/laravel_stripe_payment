@@ -1,0 +1,12 @@
+[24-Dec-2021 06:28:59 UTC] PHP Fatal error:  Uncaught Error: Class 'Tests\TestCase' not found in /home/care2020sort/public_html/lusha/tests/Feature/ExampleTest.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/care2020sort/public_html/lusha/tests/Feature/ExampleTest.php on line 8
+[24-Dec-2021 06:34:37 UTC] PHP Fatal error:  Uncaught Error: Class 'Tests\TestCase' not found in /home/care2020sort/public_html/lusha/tests/Feature/ExampleTest.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/care2020sort/public_html/lusha/tests/Feature/ExampleTest.php on line 8
+[27-Dec-2021 23:51:43 UTC] PHP Fatal error:  Uncaught Error: Class 'Tests\TestCase' not found in /home/care2020sort/public_html/lusha/tests/Feature/ExampleTest.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/care2020sort/public_html/lusha/tests/Feature/ExampleTest.php on line 8
