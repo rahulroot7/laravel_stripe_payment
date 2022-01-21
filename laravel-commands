@@ -1,0 +1,77 @@
+<---------------------laravel commands----------------------->
+
+php artisan cache:clear
+php artisan route:cache
+php artisan view:clear
+php artisan config:cache
+php artisan route:clear
+
+install=>
+
+composer create-project --prefer-dist laravel/laravel blog
+
+auth => 
+
+composer require laravel/ui
+php artisan ui vue --auth
+php artisan migratee
+
+create column=>
+
+ php artisan make:migration add_extra_fields_to_plans_table
+ php artisan migrate
+
+ $table->string('avatar')->default('default_user.png')->after('mobile')->nullable();
+            $table->enum('user_type', ['Admin', 'Customer', 'Subscriber','Guest','Advisor ','sales','recruiting','marketing','development'])->default('Customer')->after('avatar')->nullable();
+
+            $table->enum('user_status', ['Pending', 'Suspend', 'Verified', 'Hold', 'Active'])->default('Active')->after('user_type')->nullable();
+            $table->string('first_name')->after('user_status')->nullable();
+
+
+
+create middleware=>
+
+	php artisan make:middleware AdminMiddleware
+
+controller=>
+
+php artisan make:controller <controller-name>
+php artisan make:controller UserPlanController
+php artisan make:controller UserListController
+php artisan make:controller Admin/PlanController
+php artisan make:controller Admin/TeamController
+php artisan make:controller Admin/ListController
+php artisan make:controller PlanCheckoutController
+php artisan make:controller BlogController
+php artisan make:controller ContactSaleController
+php artisan make:controller PagesController
+php artisan make:controller CareerController
+
+create migration table => 
+
+php artisan make:migration create_user_plans_table
+php artisan make:migration create_lists_table
+php artisan make:migration create_prospecting_lists_table
+php artisan make:migration create_order_table
+php artisan make:migration create_contact_sales_table
+php artisan make:migration create_blog_table
+php artisan make:migration create_blog_category_table
+php artisan make:migration create_careers_table
+php artisan make:migration create_apply_jobs_table
+php artisan migrate
+
+/public_html/wealth_manager_bckend/app/Http/Controllers/Admin
+
+
+UserPlan
+model create=> 
+
+php artisan make:model UserPlan
+php artisan make:model Plan
+php artisan make:model CusList
+php artisan make:model Order
+php artisan make:model ContactSale
+php artisan make:model Blog
+php artisan make:model BlogCategory
+php artisan make:model Career
+php artisan make:model ApplyJob
